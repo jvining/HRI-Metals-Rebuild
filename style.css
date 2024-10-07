@@ -20,7 +20,7 @@ body h1, body h2, body h3, body h4, body h5 {color: var(--event-header-color); f
 body p, body ul, body ol, body li, body table, body address, body blockquote, body cite {color:#5f5f5f; font-size:16px; line-height:1.75em!important; font-weight:400; font-family: var(--event-font-primary);}
 
 /* Primary Navigation */
-nav.navbar .container .navbar-brand img{max-height:70px;}
+nav.navbar .container .navbar-brand img{max-height:80px;}
 
 nav.navbar .navbar-toggler-icon {filter: brightness(0) invert(1)!important; }
 nav.navbar.on-scroll .navbar-toggler-icon {filter:unset!important; }
@@ -38,8 +38,9 @@ nav.navbar .container .navbar-collapse ul.navbar-nav li.nav-item .dropdown-menu 
 nav.navbar .container .navbar-collapse ul.navbar-nav li.nav-item .dropdown-menu a:hover {color: #fff!important; text-decoration: none; background-color:var(--event-color-primary);}
  
 /* Hero Image/Video Jumbotron */
-body  .jumbotron{height:80vh;}
-
+body.front  .jumbotron{height:80vh;}
+body.not-front  .jumbotron{height:50vh;}
+ 
 /* Hero Divider Image */
 body .jumbotron{position:relative;}
 body .jumbotron:after {background: url(images/download2.svg) center top no-repeat; background-size:cover; display:block; content:' '; height:130px;width:100%;position:absolute;bottom:-5px;}
@@ -72,6 +73,8 @@ body .jumbotron  .video-container video[poster]{object-fit:cover;}
 .text-shadow {text-shadow:rgba( 0, 0, 0, .25 ) .045em .045em;}
 
 .title-border:after {content:""; display:block; margin:5px auto 0; height:3px; width:75px; background: var(--event-color-primary); box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);}
+
+.bg-grey{background:#eee;}
 
 .bg-lighten {box-shadow: inset 10000px 0 0 rgba(255, 255, 255, .75);}
 .bg-darken {box-shadow: inset 10000px 0 0 rgba(0, 0, 0, .25);} 

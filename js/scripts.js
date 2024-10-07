@@ -10,10 +10,10 @@ Fancybox.bind("[data-fancybox]", {});
 // On Scroll Effectts 
 $(window).scroll(function(){
     if ($(window).scrollTop() > 100){
-		$('body.front nav.navbar').addClass('on-scroll ');
-		$('body.front nav.navbar').removeClass('py-md-4' );
+		$('body nav.navbar').addClass('on-scroll ');
+		$('body nav.navbar').removeClass('py-md-3' );
     } else if ($(window).scrollTop() < 100){
-		$('body.front nav.navbar').removeClass('on-scroll' );
-		$('body.front nav.navbar').addClass('py-md-4' );
+		$('body nav.navbar').removeClass('on-scroll' );
+		$('body nav.navbar').addClass('py-md-3' );
     }
 });
