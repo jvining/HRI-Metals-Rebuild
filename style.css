@@ -76,14 +76,19 @@ body .jumbotron  .video-container video[poster]{object-fit:cover;}
 .bg-lighten {box-shadow: inset 10000px 0 0 rgba(255, 255, 255, .75);}
 .bg-darken {box-shadow: inset 10000px 0 0 rgba(0, 0, 0, .25);} 
 
-/* Buttons & Nav Color */
+/* Buttons & Badges */
 .btn-event, .btn-danger, .btn-success, .btn-warning, .btn-info, .btn-default, .btn-register, .btn-event, .btn-primary, .btn-secondary, .btn-inverse{color:#fff!important; border:unset!important; font-weight:700!important; font-family: var(--event-font-secondary); transition: all 0.3s ease!important;}
 .btn-event:hover, .btn-danger:hover, .btn-success:hover, .btn-warning:hover, .btn-info:hover, .btn-default:hover, .btn-register:hover, .btn-event:hover, .btn-primary:hover, .btn-secondary:hover, .btn-inverse:hover{transition: all 0.3s ease!important;}
 .btn:hover, .btn:focus{color:#fff!important;}
 
-/* Branded Buttons Styles */
+.badge-event,.badge-primary,.badge-secondary,.badge-success,.badge-danger,.badge-warning,.badge-info,.badge-light,.badge-dark{color:#fff!important; border:unset!important; font-weight:700!important; font-family: var(--event-font-secondary); transition: all 0.3s ease!important;}
+
+/* Branded Buttons & Badges Styles */
 .btn-event{background: var(--event-color-primary); border-radius:0!important;}
 .btn-event:hover{background: var(--event-color-secondary)!important;}
+
+.badge-event{background: var(--event-color-primary); border-radius:0!important;}
+.badge-event:hover{background: var(--event-color-secondary)!important;}
 
 .btn-inverse{background: var(--event-color-secondary); color:#fff;}
 .btn-inverse:hover{background: var(--event-color-primary);}
